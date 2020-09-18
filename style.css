@@ -216,12 +216,13 @@ header{
     color: black;
 }
 .fab-cpp img{
+    filter: opacity(65%);
     width: 2.5rem;
     height: 2.5rem;
 }
 .knowledges {
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(6, 6rem);
     row-gap: 0.1rem;
 }
